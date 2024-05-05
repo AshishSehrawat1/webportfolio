@@ -1,0 +1,143 @@
+.contact{
+    margin-left: 140px;
+    margin-bottom: 60px;
+    padding-top: 50px;
+}
+.card0{
+    box-shadow: 0px 4px 8px 0px #757575;
+    border-radius: 0px;
+}
+.card2{
+    margin: 0px 40px;
+}
+.card .image{
+   /* padding: 30px;
+    margin-top: 30px;*/
+    height: 100%;
+    width: 100%;
+}
+.border-line{
+    border-right: 1px solid #e0e0e0;
+}
+.line{
+    height: 1px;
+    width: 45%;
+    background-color: #e0e0e0;
+    margin-top: 10px;
+
+}
+.or{
+    display: flex;
+    width: 10%;
+    font-weight: bold;
+}
+::placeholder{
+    color: #bdbdbd;
+    opacity:  1;
+    font-weight: 300;
+}
+input,textarea{
+    padding: 10px 12px;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    margin-top: 5px;
+    margin-top: 2px;
+    width: 100%;
+    color: #138781;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+input:focus, textarea:focus{
+    box-shadow:none!important ;
+    outline: 1px solid #138781!important;
+    outline-width: 0px;
+}
+button:focus{
+    box-shadow: none;
+    outline-width: 0px;
+}
+
+.button{
+    background-color:#1e1e2c;
+    color: white;
+    border-radius: 2px;
+    margin-top: 15px;
+}
+
+.button:hover{
+    background-color: #000;
+    color: white;
+}
+.thankyou-wrapper{
+    width:100%;
+    height:auto;
+    margin:auto;
+    background:#ffffff; 
+    padding:10px 0px 50px;
+  }
+  .thankyou-wrapper h1{
+    font:100px Arial, Helvetica, sans-serif;
+    text-align:center;
+    color:#333333;
+    padding:0px 10px 10px;
+  }
+  .thankyou-wrapper p{
+    font:26px Arial, Helvetica, sans-serif;
+    text-align:center;
+    color:#333333;
+    padding:5px 10px 10px;
+  }
+  .thankyou-wrapper a{
+    font:26px Arial, Helvetica, sans-serif;
+    text-align:center;
+    color:#ffffff;
+    display:block;
+    text-decoration:none;
+    width:250px;
+    background:#E47425;
+    margin:10px auto 0px;
+    padding:15px 20px 15px;
+    border-bottom:5px solid #F96700;
+  }
+  .thankyou-wrapper a:hover{
+    font:26px Arial, Helvetica, sans-serif;
+    text-align:center;
+    color:#ffffff;
+    display:block;
+    text-decoration:none;
+    width:250px;
+    background:#F96700;
+    margin:10px auto 0px;
+    padding:15px 20px 15px;
+    border-bottom:5px solid #F96700;
+  }
+
+/* ======================== */
+@media (max-width: 600px) {
+    .contact {
+      margin: 0;
+      padding: 0;
+      margin-top: 50px;
+    }
+    .contact .card2 {
+      margin: 0;
+    }
+  
+    .contact .card2 h6 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .login-main-wrapper{
+      margin: 0;
+      padding: 0;
+      margin-top: 50px;
+      width: 100%;
+    }
+    .thankyou-wrapper h1 img{
+      display: flex;
+      width: 100%;
+      
+    }
+  }
